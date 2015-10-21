@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7FC52953-5053-4B2C-A4E0-4227CE603711</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>51EF7A49D51D6E34F5867B96E936EDFE9252B673</key>
+		<string>https://github.com/liwangwang123/Wang.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wang/Wang.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>51EF7A49D51D6E34F5867B96E936EDFE9252B673</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/liwangwang123/Wang.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>51EF7A49D51D6E34F5867B96E936EDFE9252B673</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>51EF7A49D51D6E34F5867B96E936EDFE9252B673</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Wang</string>
+		</dict>
+	</array>
+</dict>
+</plist>
