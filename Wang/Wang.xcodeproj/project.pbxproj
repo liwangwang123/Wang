@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8105C5691BD72A790030CA24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105C5681BD72A790030CA24 /* main.m */; };
+		8105C56C1BD72A790030CA24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105C56B1BD72A790030CA24 /* AppDelegate.m */; };
+		8105C56F1BD72A790030CA24 /* Wang.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8105C56D1BD72A790030CA24 /* Wang.xcdatamodeld */; };
+		8105C5721BD72A790030CA24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105C5711BD72A790030CA24 /* ViewController.m */; };
+		8105C5751BD72A790030CA24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8105C5731BD72A790030CA24 /* Main.storyboard */; };
+		8105C5771BD72A790030CA24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8105C5761BD72A790030CA24 /* Images.xcassets */; };
+		8105C57A1BD72A790030CA24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8105C5781BD72A790030CA24 /* LaunchScreen.xib */; };
+		8105C5861BD72A790030CA24 /* WangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105C5851BD72A790030CA24 /* WangTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8105C5801BD72A790030CA24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8105C55B1BD72A790030CA24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8105C5621BD72A790030CA24;
+			remoteInfo = Wang;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8105C5631BD72A790030CA24 /* Wang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wang.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8105C5671BD72A790030CA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8105C5681BD72A790030CA24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8105C56A1BD72A790030CA24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8105C56B1BD72A790030CA24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8105C56E1BD72A790030CA24 /* Wang.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wang.xcdatamodel; sourceTree = "<group>"; };
+		8105C5701BD72A790030CA24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8105C5711BD72A790030CA24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8105C5741BD72A790030CA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8105C5761BD72A790030CA24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8105C5791BD72A790030CA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8105C57F1BD72A790030CA24 /* WangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8105C5841BD72A790030CA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8105C5851BD72A790030CA24 /* WangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8105C5601BD72A790030CA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8105C57C1BD72A790030CA24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8105C55A1BD72A790030CA24 = {
+			isa = PBXGroup;
+			children = (
+				8105C5651BD72A790030CA24 /* Wang */,
+				8105C5821BD72A790030CA24 /* WangTests */,
+				8105C5641BD72A790030CA24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8105C5641BD72A790030CA24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8105C5631BD72A790030CA24 /* Wang.app */,
+				8105C57F1BD72A790030CA24 /* WangTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8105C5651BD72A790030CA24 /* Wang */ = {
+			isa = PBXGroup;
+			children = (
+				8105C56A1BD72A790030CA24 /* AppDelegate.h */,
+				8105C56B1BD72A790030CA24 /* AppDelegate.m */,
+				8105C5701BD72A790030CA24 /* ViewController.h */,
+				8105C5711BD72A790030CA24 /* ViewController.m */,
+				8105C5731BD72A790030CA24 /* Main.storyboard */,
+				8105C5761BD72A790030CA24 /* Images.xcassets */,
+				8105C5781BD72A790030CA24 /* LaunchScreen.xib */,
+				8105C56D1BD72A790030CA24 /* Wang.xcdatamodeld */,
+				8105C5661BD72A790030CA24 /* Supporting Files */,
+			);
+			path = Wang;
+			sourceTree = "<group>";
+		};
+		8105C5661BD72A790030CA24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8105C5671BD72A790030CA24 /* Info.plist */,
+				8105C5681BD72A790030CA24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8105C5821BD72A790030CA24 /* WangTests */ = {
+			isa = PBXGroup;
+			children = (
+				8105C5851BD72A790030CA24 /* WangTests.m */,
+				8105C5831BD72A790030CA24 /* Supporting Files */,
+			);
+			path = WangTests;
+			sourceTree = "<group>";
+		};
+		8105C5831BD72A790030CA24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8105C5841BD72A790030CA24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8105C5621BD72A790030CA24 /* Wang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8105C5891BD72A790030CA24 /* Build configuration list for PBXNativeTarget "Wang" */;
+			buildPhases = (
+				8105C55F1BD72A790030CA24 /* Sources */,
+				8105C5601BD72A790030CA24 /* Frameworks */,
+				8105C5611BD72A790030CA24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wang;
+			productName = Wang;
+			productReference = 8105C5631BD72A790030CA24 /* Wang.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8105C57E1BD72A790030CA24 /* WangTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8105C58C1BD72A790030CA24 /* Build configuration list for PBXNativeTarget "WangTests" */;
+			buildPhases = (
+				8105C57B1BD72A790030CA24 /* Sources */,
+				8105C57C1BD72A790030CA24 /* Frameworks */,
+				8105C57D1BD72A790030CA24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8105C5811BD72A790030CA24 /* PBXTargetDependency */,
+			);
+			name = WangTests;
+			productName = WangTests;
+			productReference = 8105C57F1BD72A790030CA24 /* WangTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8105C55B1BD72A790030CA24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "王力";
+				TargetAttributes = {
+					8105C5621BD72A790030CA24 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8105C57E1BD72A790030CA24 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8105C5621BD72A790030CA24;
+					};
+				};
+			};
+			buildConfigurationList = 8105C55E1BD72A790030CA24 /* Build configuration list for PBXProject "Wang" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8105C55A1BD72A790030CA24;
+			productRefGroup = 8105C5641BD72A790030CA24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8105C5621BD72A790030CA24 /* Wang */,
+				8105C57E1BD72A790030CA24 /* WangTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8105C5611BD72A790030CA24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8105C5751BD72A790030CA24 /* Main.storyboard in Resources */,
+				8105C57A1BD72A790030CA24 /* LaunchScreen.xib in Resources */,
+				8105C5771BD72A790030CA24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8105C57D1BD72A790030CA24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8105C55F1BD72A790030CA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8105C56C1BD72A790030CA24 /* AppDelegate.m in Sources */,
+				8105C5691BD72A790030CA24 /* main.m in Sources */,
+				8105C5721BD72A790030CA24 /* ViewController.m in Sources */,
+				8105C56F1BD72A790030CA24 /* Wang.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8105C57B1BD72A790030CA24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8105C5861BD72A790030CA24 /* WangTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8105C5811BD72A790030CA24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8105C5621BD72A790030CA24 /* Wang */;
+			targetProxy = 8105C5801BD72A790030CA24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8105C5731BD72A790030CA24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8105C5741BD72A790030CA24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8105C5781BD72A790030CA24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8105C5791BD72A790030CA24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8105C5871BD72A790030CA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8105C5881BD72A790030CA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8105C58A1BD72A790030CA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8105C58B1BD72A790030CA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wang/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8105C58D1BD72A790030CA24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang.app/Wang";
+			};
+			name = Debug;
+		};
+		8105C58E1BD72A790030CA24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WangTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wang.app/Wang";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8105C55E1BD72A790030CA24 /* Build configuration list for PBXProject "Wang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8105C5871BD72A790030CA24 /* Debug */,
+				8105C5881BD72A790030CA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8105C5891BD72A790030CA24 /* Build configuration list for PBXNativeTarget "Wang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8105C58A1BD72A790030CA24 /* Debug */,
+				8105C58B1BD72A790030CA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8105C58C1BD72A790030CA24 /* Build configuration list for PBXNativeTarget "WangTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8105C58D1BD72A790030CA24 /* Debug */,
+				8105C58E1BD72A790030CA24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8105C56D1BD72A790030CA24 /* Wang.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8105C56E1BD72A790030CA24 /* Wang.xcdatamodel */,
+			);
+			currentVersion = 8105C56E1BD72A790030CA24 /* Wang.xcdatamodel */;
+			path = Wang.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8105C55B1BD72A790030CA24 /* Project object */;
+}
