@@ -20,6 +20,7 @@
     self.navigationController.navigationBar.translucent = NO;
     //什么意思
     UIView *view = [[UIView alloc] init];
+    //hh
     // Do any additional setup after loading the view, typically from a nib.
 }
 
