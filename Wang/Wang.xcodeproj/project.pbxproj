@@ -15,6 +15,7 @@
 		8105C5771BD72A790030CA24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8105C5761BD72A790030CA24 /* Images.xcassets */; };
 		8105C57A1BD72A790030CA24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8105C5781BD72A790030CA24 /* LaunchScreen.xib */; };
 		8105C5861BD72A790030CA24 /* WangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8105C5851BD72A790030CA24 /* WangTests.m */; };
+		81E78BF41BE88C56001D36D2 /* UserGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E78BF31BE88C56001D36D2 /* UserGuide.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		8105C57F1BD72A790030CA24 /* WangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8105C5841BD72A790030CA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8105C5851BD72A790030CA24 /* WangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WangTests.m; sourceTree = "<group>"; };
+		81E78BF21BE88C56001D36D2 /* UserGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGuide.h; sourceTree = "<group>"; };
+		81E78BF31BE88C56001D36D2 /* UserGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGuide.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		8105C5651BD72A790030CA24 /* Wang */ = {
 			isa = PBXGroup;
 			children = (
+				81E78BF11BE88C56001D36D2 /* 用户引导 */,
 				8105C56A1BD72A790030CA24 /* AppDelegate.h */,
 				8105C56B1BD72A790030CA24 /* AppDelegate.m */,
 				8105C5701BD72A790030CA24 /* ViewController.h */,
@@ -120,6 +124,15 @@
 				8105C5841BD72A790030CA24 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81E78BF11BE88C56001D36D2 /* 用户引导 */ = {
+			isa = PBXGroup;
+			children = (
+				81E78BF21BE88C56001D36D2 /* UserGuide.h */,
+				81E78BF31BE88C56001D36D2 /* UserGuide.m */,
+			);
+			path = "用户引导";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +239,7 @@
 				8105C5691BD72A790030CA24 /* main.m in Sources */,
 				8105C5721BD72A790030CA24 /* ViewController.m in Sources */,
 				8105C56F1BD72A790030CA24 /* Wang.xcdatamodeld in Sources */,
+				81E78BF41BE88C56001D36D2 /* UserGuide.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +436,7 @@
 				8105C58B1BD72A790030CA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8105C58C1BD72A790030CA24 /* Build configuration list for PBXNativeTarget "WangTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +445,7 @@
 				8105C58E1BD72A790030CA24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
